@@ -1,0 +1,9 @@
+flags: {}
+nix:
+  packages:
+  - cabal-install
+extra-package-dbs: []
+packages:
+- '.'
+extra-deps:
+resolver: lts-12.2
