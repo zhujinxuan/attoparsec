@@ -15,7 +15,7 @@ module QC.IPv6.Types where
 
 import qualified Data.Text as T
 
-data IPv6Addr = IPv6Addr T.Text
+newtype IPv6Addr = IPv6Addr T.Text
 
 instance Show IPv6Addr where
     show (IPv6Addr addr) = T.unpack addr
